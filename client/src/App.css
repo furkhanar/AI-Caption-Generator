@@ -1,0 +1,104 @@
+/* BODY */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+/* MAIN CONTAINER */
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* CARD */
+
+.card {
+    width: 100%;
+    max-width: 600px;
+    background: #1e293b;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+/* HEADING */
+
+.card h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* SUBTITLE */
+
+.subtitle {
+    text-align: center;
+    color: #cbd5e1;
+    margin-bottom: 30px;
+}
+
+/* INPUTS */
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 12px;
+    background: #334155;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+/* BUTTON */
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* RESULT BOX */
+
+.result {
+    margin-top: 30px;
+    background: #334155;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* RESULT TITLE */
+
+.result h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* CAPTIONS */
+
+.result pre {
+    color: #e2e8f0;
+    white-space: pre-wrap;
+    font-size: 15px;
+    line-height: 1.6;
+}

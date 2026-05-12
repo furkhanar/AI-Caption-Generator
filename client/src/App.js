@@ -19,7 +19,7 @@ function App() {
       setLoading(true);
 
       const res = await axios.post(
-        "http://localhost:5000/generate-caption",
+        "https://ai-caption-generator-backend-6b2d.onrender.com/generate-caption",
         {
           topic,
           mood,
